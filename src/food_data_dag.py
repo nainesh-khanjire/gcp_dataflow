@@ -25,7 +25,7 @@ from airflow.providers.google.cloud.sensors.gcs import GCSObjectExistenceSensor
 # bash operator for shell scripts and python operator for running .py files and py functions
 
 # slack webbhook URL 
-SLACK_WEBHOOK_URL = 'https://hooks.slack.com/services/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'
+SLACK_WEBHOOK_URL = ''
 
 def send_slack_notification(context):
     if SLACK_WEBHOOK_URL:
